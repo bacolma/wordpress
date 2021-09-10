@@ -1,0 +1,8 @@
+# frontend files
+#dist/
+assets/public/.cache
+assets/public/dist/js/index.js.map
+assets/public/dist/css/style.js.map
+assets/public/dist/css/style.css.map
+
+

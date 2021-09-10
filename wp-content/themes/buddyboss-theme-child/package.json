@@ -1,0 +1,17 @@
+{
+  "name": "buddyboss-theme-child",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@wordpress/scripts": "^16.1.0"
+  },
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

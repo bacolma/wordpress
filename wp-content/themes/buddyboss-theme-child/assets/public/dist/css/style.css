@@ -1,0 +1,125 @@
+@import 'modal_help.css';
+.ramp_assessment_page__header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #bbb;
+    margin-bottom: 20px
+}
+
+.ramp_assessment_page__header .options__text {
+    color: #44b4b8;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.ramp_assessment_page__header .last_completed__text {
+    color: #25335a;
+    font-size: 12px
+}
+
+.ramp_assessment_page__list__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: #25335a;
+    position: relative
+}
+
+.ramp_assessment_page__list__item :after {
+    content: "";
+    background: linear-gradient(90deg, #f6f6f6, #e8e8e8);
+    display: block;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+
+.ramp_assessment_page__list__item .symptom__text {
+    font-weight: 700;
+    font-size: 24px
+}
+
+.ramp_assessment_page__list__item .date__text {
+    font-size: 13px
+}
+
+.ramp_assessment_page__detail #result_score_day {
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column
+}
+
+.ramp_assessment_page__detail .detail__description {
+    font-size: 14px;
+    text-align: justify;
+    color: #25335a;
+    margin-bottom: 20px
+}
+
+.ramp_assessment_page__detail .detail__start {
+    background: #eb4745;
+    padding: 14px 15px;
+    text-align: center;
+    border-radius: 40px;
+    width: 100%;
+    display: block;
+    color: #fff;
+    text-transform: uppercase
+}
+
+.ramp_assessment_page__detail .chart-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.ramp_assessment_page__detail .chart-stats div {
+    color: #25335a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.ramp_assessment_page__detail .chart-stats div span:first-child {
+    font-size: 20px
+}
+
+.ramp_assessment_page__detail .chart-stats div span:last-child {
+    font-size: 11px
+}
+
+.ramp_assessment_page__detail #result_score_day__date {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    color: #25335a
+}
+
+.ramp_assessment_page__detail #result_score_day__date span {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    color: #165a6b
+}
+
+.ramp_assessment_page__detail #result_score_day__date input {
+    background: transparent
+}
+
+.ramp_assessment_page #show-results {
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: red
+}
+
+body:not(.page-template-page-fullscreen) .site {
+    overflow-x: initial
+}
+
+
+/*# sourceMappingURL=/style.css.map */

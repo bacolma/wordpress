@@ -1,0 +1,33 @@
+/*
+ Theme Name:   BuddyBoss Theme Child
+ Theme URI:    
+ Description:  BuddyBoss Theme Child Description
+ Author:       4abyte
+ Author URI:   https://www.4abyte.ca/
+ Template:     buddyboss-theme
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark
+ Text Domain:  buddybossthemechild
+*/
+
+
+
+/*
+
+-- Stylesheet locations --
+
+Add your own customizations into /css/custom.css in this child theme.
+
+Parent styles are called from /buddyboss-theme/inc/theme/functions.php in the 
+parent theme and are located in /buddyboss-theme/assets/css/ in the parent theme.
+
+
+--- If you are editing CSS via the WordPress admin, do the following ---
+
+1. Install the plugin WP Editor: http://wordpress.org/plugins/wp-editor/
+2. Navigate to Appearance > Theme Editor in the WordPress admin.
+3. Navigate into the /css/ folder of your child theme to edit custom.css.
+
+*/

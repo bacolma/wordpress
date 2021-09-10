@@ -1,0 +1,14 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.34.0"
+  },
+  "scripts": {
+    "start": "parcel ./js/index.js ./css/style.scss --log-level 3",
+    "build": "NODE_ENV=production parcel build ./js/index.js ./css/style.scss"
+  }
+}
